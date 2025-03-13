@@ -1,4 +1,18 @@
-a{
+body{
+    font-family: sans-serif;
+}
+
+h1{
+    color: dimgrey;
+}
+
+ul{
+    list-style: none;
+}
+
+.link-homework{
+    color: #fff;
+    font-weight: 600;
     font-size: 35px;
     text-decoration: none;
 }

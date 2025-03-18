@@ -1,0 +1,53 @@
+@import url(reset.css);
+
+.menu a{
+    color: green;
+}
+
+.menu .menu-link{
+    color: blue;
+}
+
+.menu .menu-link2{
+    color: firebrick;
+}
+
+.menu .menu-link3{
+    color: darkmagenta;
+}
+
+.menu .menu-link4{
+    color: darkblue;
+}
+
+.menu .menu-link5{
+    color: orangered;
+}
+
+h1{
+    color:red;
+}
+
+#title{
+    color: olive;
+}
+
+div h3{
+    color: red;
+}
+
+[class*="te"] {
+    color: blue;
+}
+
+.item > p {
+    color: olivedrab;
+}
+
+.list + h3{
+    color: darkorchid;
+}
+
+.title ~ h3{
+    color: rgb(255, 0, 149);
+}

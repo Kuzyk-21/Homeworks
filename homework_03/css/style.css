@@ -24,16 +24,12 @@
     color: orangered;
 }
 
-h1{
+h1, div h3{
     color:red;
 }
 
 #title{
     color: olive;
-}
-
-div h3{
-    color: red;
 }
 
 [class*="te"] {
@@ -56,6 +52,10 @@ div h3{
     color: red;
 }
 
-.socials .socials-item .social-link{
+.socials .social-link{
     color: blue;
+}
+
+.social-link.red{
+    color: red;
 }

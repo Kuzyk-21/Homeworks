@@ -28,8 +28,8 @@ h1, div h3{
     color:red;
 }
 
-#title{
-    color: olive;
+#general-info-text{
+    color: violet;
 }
 
 [class*="te"] {

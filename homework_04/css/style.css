@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,600,800&display=swap");
+@import url(fonts.css);
+
+@import url(reset.css); 
+
+
+body{
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+}
+
+.title{
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-size: 52px;
+    text-shadow: 3px -5px #f779d1;
+
+    color: darkolivegreen;
+}
+
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.menu-list .menu-item{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.menu-list .menu-link{
+    word-spacing: 15px;
+    text-transform: uppercase;
+}
+
+.section .text{
+    font-family: "AA-Higherup", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: right;
+    color: blueviolet;
+}
+
+.section.lorem .text{
+    color: #f779d1;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: blue;
+    letter-spacing: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.section.programs{
+    color: red;
+    text-decoration: overline;
+    text-align: right;
+}
+
+.section + .section{
+    color: gold;
+    text-align: right;
+}
+
+.section.teaching-methods h2{
+    text-transform: capitalize;
+}
+
+.section-bazar{
+    color: #808080;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.section-bazar .title{
+    text-align: left;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    text-shadow: none;
+
+    color: #1A1A1A;
+}
+
+.section-bazar .text{
+    margin-bottom: 24px;
+}
+
+.socials .social-link{
+    color: blue;
+}
+
+.social-link.red{
+    color: red;
+    text-decoration: line-through;
+}

@@ -30,13 +30,17 @@ body{
 .section{
     background-color: #231F8B;
     margin-bottom: 60px;
+    padding-block: 112px;
 }
 
 .container{
     min-width: 360px;
     max-width: 1050px;
     margin: 0 auto;
-    padding-block: 112px;
+}
+
+.txt-container{
+    margin-bottom: 70px;
 }
 
 .sub-title.violet{
@@ -66,7 +70,10 @@ body{
     font-family: "Roboto", sans-serif;
     font-size: 14px;
     line-height: 1.4;
-    margin-bottom: 70px;
+}
+
+.card-container{
+    font-size: 0;
 }
 
 .card{
@@ -75,10 +82,11 @@ body{
     width: 230px;
     background-color: #fff;
     vertical-align: top;
+    margin-right: 35px;
 }
 
-.card + .card{
-    margin-left: 30px;
+.card.last{
+    margin-right: 0;
 }
 
 .card.violet{

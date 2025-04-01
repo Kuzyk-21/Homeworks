@@ -1,3 +1,147 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,600,700&display=swap");
+
+body{
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+}
+
 .wrapper{
-    overflow: clip;
+    overflow: hidden;
+    min-height: 100%;
+}
+
+.header,
+.footer{
+    width: 100%;
+    background-color: grey;
+}
+
+.header .title,
+.footer .title{
+    color: #ffffff;
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 5px;
+}
+
+.people{
+    background: #412672;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.content{
+    display: inline-block;
+    padding-top: 61px;
+    padding-bottom: 102px;
+    font-size: 0;
+}
+
+.text{
+    max-width: 505px;
+}
+
+.text .title{
+    font-size: 38px;
+    color: #ffffff;
+}
+
+.text .sub-title{
+    font-size: 38px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 31px;
+}
+
+.card{
+    padding: 20px;
+    width: 347px;
+    display: inline-block;
+    background-color: #ffffff;
+    font-size: 15px;
+}
+
+.card:hover{
+    background-color: #FFBE48;
+}
+
+.card:not(:first-child){
+    margin-left: 20px;
+}
+
+.card .img{
+    /* margin-bottom: 16px; */
+}
+
+.card .title{
+    font-size: 22px;
+    font-weight: 600;
+    color: #000000;
+    /* margin-bottom: 16px; */
+}
+
+.card .desc{
+    color: #4F4F4F;
+    line-height: 1.26;
+    min-height: 76px;
+    /* margin-bottom: 16px; */
+}
+
+.card .link{
+    color: red;
+    padding: 5px;
+}
+
+.card *:not(:last-child){
+    margin-bottom: 16px;
+}
+
+.card .link:active{
+    text-decoration: underline;
+}
+
+.faculty .container{
+    width: 518px;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: #412672;
+}
+
+.faculty .content{
+    padding-top: 153px;
+    padding-bottom: 137px;
+}
+
+.faculty .title,
+.faculty .sub-title{
+    font-size: 34px;
+}
+
+.faculty .sub-title{
+    font-weight: 700;
+}
+
+.faculty .desc{
+    font-size: 22px;
+}
+
+.faculty .item{
+    color: #4F4F4F;
+    font-size: 20px;
+    line-height: 2.5;
+}
+
+.faculty .item::before{
+    content: "";
+    background: url(../img/check-icon.svg) no-repeat;
+    width: 29px;
+    height: 29px;
+    vertical-align: middle;
+    padding-left: 35px;
 }

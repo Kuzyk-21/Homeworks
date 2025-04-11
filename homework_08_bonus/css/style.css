@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,regular,500,600,700&display=swap");
+
+.wrapper{
+    overflow: hidden;
+    height: 100%;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.menu-container{
+    max-width: 1542px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+}
+
+.menu-content{
+    background-image: url(../img/nature-hero.avif);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.nav-menu{
+    background: rgba(18, 11, 11, 0.51);
+}
+
+.logo-img{
+    margin-left: 49px;
+}
+
+.nav-list,
+.nav-list .item{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.nav-list .item{
+    padding-top: 59px;
+    padding-bottom: 42px;
+    font-size: 0;
+}
+
+.nav-list .item:first-of-type{
+    margin-left: 112px;
+}
+
+.nav-list .item:not(:first-child){
+    margin-left: 64px;
+}
+
+.nav-list .link{
+    color: #ffffff;
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+.sub-menu{
+    padding-left: 5px;
+}
+
+.hero{
+    padding: 352px 0 352px 0;
+    text-align: center;
+}
+
+.hero-title{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1.09;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+
+.hero .sub-title{
+    display: inline-block;
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 2.9;
+}

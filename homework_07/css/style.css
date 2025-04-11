@@ -28,12 +28,14 @@ body{
 
 .people{
     background: #412672;
+    padding-top: 61px;
+    padding-bottom: 102px;
 }
 
 .people .container{
     width: 1200px;
     margin: 0 auto;
-    padding: 61px 15px 102px 15px;
+    padding: 0 15px;
 }
 
 .people .content{
@@ -48,6 +50,7 @@ body{
 .text .title{
     font-size: 38px;
     color: #ffffff;
+    margin-bottom: 31px;
 }
 
 .text .sub-title{
@@ -55,7 +58,6 @@ body{
     font-size: 38px;
     font-weight: 700;
     color: #ffffff;
-    margin-bottom: 31px;
 }
 
 .card{
@@ -70,8 +72,8 @@ body{
     background-color: #FFBE48;
 }
 
-.card:not(:first-of-type){
-    margin-left: 20px;
+.card:not(:last-of-type){
+    margin-right: 20px;
 }
 
 .card .title{
@@ -117,10 +119,15 @@ body{
 
 /*------ FACULTY ------ */
 
+.faculty{
+  padding-top: 153px;
+  padding-bottom: 137px;
+}
+
 .faculty .container{
-    width: 518px;
+    max-width: 528px;
     margin: 0 auto;
-    padding: 153px 15px 137px 15px;
+    padding: 15px;
     color: #412672;
 }
 
@@ -136,15 +143,22 @@ body{
 
 .faculty .desc{
     font-size: 22px;
-    margin-bottom: 20px;
+}
+
+.faculty .list{
+  margin-top: 20px;
 }
 
 .faculty .item{
     color: #4F4F4F;
     font-size: 20px;
-    line-height: 2.5;
+    line-height: 1.5;
+    padding-left: 40px;
 }
 
+.faculty .item:not(:last-child){
+  margin-bottom: 20px;
+}
 
 .faculty .item::before{
     content: "";
@@ -153,6 +167,7 @@ body{
     height: 29px;
     vertical-align: middle;
     margin-right: 15px;
+    margin-left: -44px;
 }
 
 /*------ GAME ------ */

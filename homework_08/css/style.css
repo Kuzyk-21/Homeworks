@@ -1,13 +1,66 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:regular,500,700&display=swap");
 
-.wrapper{
-    overflow: hidden;
-    height: 100%;
-}
-
 body{
     background: linear-gradient(90deg, rgba(255,34,235,1) 0%, rgba(230,41,156,1) 15%, rgba(176,34,214,1) 33%, rgba(96,29,253,1) 47%, rgba(121,36,253,1) 62%, rgba(238,69,252,1) 100%);
 
     font-family: "Poppins", sans-serif;
     font-size: 20px;
+    color: #ffffff;
+}
+
+.wrapper{
+    overflow: hidden;
+    min-height: 100%;
+}
+
+.header,
+.footer{
+    background: linear-gradient(90deg,rgba(168, 168, 168, 0.58) 100%, rgba(168, 168, 168, 0.27) 100%);
+    margin-bottom: 20px;
+    padding: 20px 15px;
+}
+
+.title{
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.vector-container,
+.raster-container{
+    max-width: 1030px;
+    padding: 20px 15px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-size: 0;
+    border-radius: 30px;
+    background: linear-gradient(90deg,rgba(168, 168, 168, 0.58) 100%, rgba(168, 168, 168, 0.27) 100%);
+}
+
+.vector-content,
+.raster-content{
+    font-size: 20px;
+}
+
+.vector-content img{
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+.vector-content .item:not(:last-child){
+    margin-bottom: 20px;
+}
+
+.raster-content *:not(:last-child){
+    margin-bottom: 20px;
+}
+
+.raster-content{
+    text-align: center;
+}
+
+.img-border{
+    border-radius: 26.92% 0 26.92% 0 / 27.32% 0 27.32% 0;
+    margin-bottom: 20px;
 }

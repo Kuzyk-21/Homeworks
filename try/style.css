@@ -43,7 +43,7 @@ body{
     font-weight: 500;
 }
 
-.product-list__btn{
+.product-list__btn--hover{
     opacity: 0;
     visibility: hidden;
 }
@@ -68,7 +68,7 @@ body{
     padding: 10px;
 }
 
-.product-list__card:hover .product-list__btn{
+.product-list__card:hover .product-list__btn--hover{
     opacity: 1;
     visibility: visible;
 }

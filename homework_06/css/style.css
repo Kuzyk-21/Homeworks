@@ -8,7 +8,7 @@ body{
 
 .wrapper{
     min-height: 100%;
-    overflow: hidden;
+    overflow: clip;
 }
 
 .header,

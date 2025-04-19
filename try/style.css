@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+}
+
+.product {
+}
+.products__container {
+    max-width: 1340px;
+    padding: 10px;
+    margin: 0 auto;
+}
+.product-list {
+    font-size: 0;
+    display: inline-block;
+}
+.product-list__card {
+    font-size: 14px;
+    display: inline-block;
+    border: 1px solid #999;
+}
+.product-list__top {
+    position: relative;
+    display: inline-block;
+    padding: 5px;
+}
+.product-list__link {
+    display: block;
+}
+.product-list__sale {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    padding: 3px 8px;
+    background-color: #EA4B48;
+    color: #FFF;
+    border-radius: 4px;
+}
+
+.product-list__sale--fw-500{
+    font-weight: 500;
+}
+
+.product-list__btn{
+    opacity: 0;
+    visibility: hidden;
+}
+
+.product-list__btn--save{
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    background-color: #fff;
+    border: 1px solid #999;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.product-list__btn--watched{
+    position: absolute;
+    right: 15px;
+    top: 61px;
+    background-color: #fff;
+    border: 1px solid #999;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.product-list__card:hover .product-list__btn{
+    opacity: 1;
+    visibility: visible;
+}
+
+.product-list__card:hover{
+    border: 1px solid #2C742F;
+    box-shadow: 0px 0px 12px 0px rgba(32, 181, 38, 0.32);
+}
+
+.product-list__bottom {
+    position: relative;
+    padding: 12px;
+}
+
+.product-list__title {
+    color: #4D4D4D;
+    line-height: 1.5;
+}
+
+.product-list__card:hover .product-list__title{
+    color: #2C742F;
+}
+
+.product-list__price {
+    display: inline-block;
+    font-weight: 500;
+}
+.product-list__price--sale {
+    display: inline-block;
+    color: #999;
+    text-decoration: line-through;
+}
+
+.product-list__btn--buy{
+    position: absolute;
+    right: 16px;
+    top: 23px;
+    background-color: #fff;
+    border: 1px solid #999;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.product-list__btn--buy:hover{
+    stroke: #fff;
+}

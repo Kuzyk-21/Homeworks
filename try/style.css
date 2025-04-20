@@ -102,16 +102,26 @@ body{
     text-decoration: line-through;
 }
 
-.product-list__btn--buy{
+.product-list__btn{
     position: absolute;
     right: 16px;
-    top: 23px;
+    top: 10px;
     background-color: #fff;
     border: 1px solid #999;
     border-radius: 50%;
     padding: 10px;
 }
 
-.product-list__btn--buy:hover{
+.product-list__btn:hover{
+    background-color: #00B207;
+    border: 1px solid transparent;
+}
+
+.product-list__btn:active{
+    background-color: #2C742F;
+    border: 1px solid transparent;
+}
+
+.product-list__btn:hover path{
     stroke: #fff;
 }

@@ -99,7 +99,7 @@ body{
     visibility: visible;
 }
 
-.action-buttons a:not(:last-child){
+.action-buttons__icon:not(:last-child){
     margin-bottom: 6px;
 }
 
@@ -109,7 +109,7 @@ body{
     top: 16px;
 }
 
-.action-buttons a{
+.action-buttons__icon{
     display: block;
     background-color: #fff;
     border: 1px solid #999;

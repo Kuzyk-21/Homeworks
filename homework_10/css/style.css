@@ -62,6 +62,7 @@ body{
     display: inline-block;
 }
 .product-list__card {
+    width: 265px;
     font-size: 14px;
     display: inline-block;
     border: 1px solid #999;
@@ -75,6 +76,12 @@ body{
 .product-list__link {
     display: block;
 }
+
+.product-list__link--bottom{
+    width: 100%;
+    padding-right: 51px;
+}
+
 .product-list__sale {
     position: absolute;
     top: 16px;
@@ -252,11 +259,12 @@ body{
 
 .content-top__img {
     box-shadow: -25px 20px 44px 0px rgba(84, 48, 209, 0.40);
-    margin-right: 70px;
 }
 
 .content-botomm__img,
 .content-top__img{
+    max-width: 430px;
+    max-height: 548px;
     position: relative;
     display: inline-block;
     z-index: 1;
@@ -265,9 +273,18 @@ body{
     border-radius: 20px;
 }
 
+.content-top__info{
+    margin: 135px 0 30px 70px;
+}
+
+.content-botomm__info{
+    margin: 55px 69px 130px 0;
+}
+
 .content-top__info,
 .content-botomm__info  {
-    vertical-align: middle;
+    z-index: 3;
+    vertical-align: top;
     display: inline-block;
     max-width: 530px;
 }

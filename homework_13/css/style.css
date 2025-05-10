@@ -64,11 +64,10 @@ body{
 .card {
 	display: flex;
 	flex-direction: column;
+	width: 380px;
 	gap: 16px;
-	width: 387px;
 	padding: 20px;
 	background-color: #ffffff;
-	flex: 1 1;
 }
 
 .card:hover{

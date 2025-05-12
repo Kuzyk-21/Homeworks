@@ -187,8 +187,13 @@ body{
 .academy-stats__icon {
 	width: 70px;
 	height: 70px;
+	align-items: center;
 }
 .academy-stats__value {
 	font-size: 24px;
 	font-weight: 700;
+}
+
+.academy-stats__label{
+	width: 130px;
 }

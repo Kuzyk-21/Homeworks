@@ -151,6 +151,7 @@ body{
 .announcement__slider{
 	width: 764px;
 	height: 521px;
+	align-items: center;
 }
 
 .academy-stats {

@@ -149,8 +149,8 @@ body{
 	background: url(../img/check-icon.svg) 0 0 / 100% no-repeat;
 }
 .announcement__slider{
-	width: 764px;
-	height: 521px;
+	flex-basis: 764px;
+	max-height: 521px;
 	align-items: center;
 }
 

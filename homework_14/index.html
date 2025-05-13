@@ -13,29 +13,76 @@
             <h1 class="header__title">Homework</h1>
         </header>
         <main>
-            <section class="checkout">
-                <div class="checkout__container">
-                    <form action="#" class="checkout__form">
-                        <div class="information">
-                         <h2 class="information__title">Billing Information</h2>
-                            <ul class="information__user">
-                                <li>
-                                    <label class="information__lable">
-                                        First name
-                                        <input type="text" name="form[]" placeholder="Your first name" class="information__input">
-                                    </label>
-                                    <label class="information__lable">
-                                        Last name
-                                        <input type="text" name="form[]" placeholder="Your first name" class="information__input">
-                                    </label>
-                                    <label class="information__lable">
-                                        Company Name (optional)
-                                        <input type="text" name="form[]" placeholder="Your first name" class="information__input">
-                                    </label>
-                                </li>
-                            </ul>
+            <section class="section">
+                <div class="section__container">
+                    <form action="#" method="post" class="checkout">
+                        <div class="checkout__form">
+                            <h2 class="checkout__title">Billing Information</h2>
+                            <div class="checkout__row">
+                                <label for="first-name" class="checkout__label">
+                                    <span>First name</span>
+                                    <input type="text" id="first-name" placeholder="Your first name" required class="checkout__input">
+                                </label>
+                                <label for="last-name" class="checkout__label">
+                                    <span>Last name</span>
+                                    <input type="text" id="firs-name" placeholder="Your last name" required class="checkout__input">
+                                </label>
+                                <label for="company" class="checkout__label">
+                                    <span>Company Name (optional)</span>
+                                    <input type="text" id="company" placeholder="Company name" required class="checkout__input">
+                                </label>
+                            </div>
+                                <label for="adress" class="checkout__label">
+                                    <span>Street Adress</span>
+                                    <input type="text"  id="adress" placeholder="Your Adress" required class="checkout__input">
+                                </label>
+                            <div class="checkout__row">
+                                <label for="first-name" class="checkout__label">
+                                    <span>Country / Region</span>
+                                    <select id="" class="checkout__input">
+                                        <option value="#">Select</option>
+                                        <option value="ua">Ukraine</option>
+                                        <option value="at">Austria</option>
+                                        <option value="pl">Poland</option>
+                                        <option value="fr">France</option>
+                                    </select>
+                                </label>
+                                <label for="country" class="checkout__label">
+                                    <span>States</span>
+                                    <select id="country" class="checkout__input">
+                                        <option value="#">Select</option>
+                                        <option value="ua">Kyiv</option>
+                                        <option value="at">Wien</option>
+                                        <option value="pl">Warsaw</option>
+                                        <option value="fr">Paris</option>
+                                    </select>
+                                </label>
+                                <label for="zip-code" class="checkout__label">
+                                    <span>Zip Code</span>
+                                    <input type="text" id="zip-code" placeholder="Zip Code" required class="checkout__input">
+                                </label>
+                            </div>
+                            <div class="checkout__row">
+                                <label for="email" class="checkout__label">
+                                    <span>Email</span>
+                                    <input type="email"  id="email" placeholder="Email Address" required class="checkout__input">
+                                </label>
+                                <label for="phone" class="checkout__label">
+                                    <span>Phone</span>
+                                    <input type="tel"  id="phone" placeholder="Phone number" required class="checkout__input">
+                                </label>
+                            </div>
+
+                            <div class="checkout__checkbox">
+                                <label for="checkbox">
+                                    Ship to a different address
+                                    <input type="checkbox" id="checkbox">
+                                </label>
+                            </div>
+
+                            <div class="checkout__textarea"></div>
                         </div>
-                    </form>    
+                    </form>
                 </div>
             </section>
         </main>

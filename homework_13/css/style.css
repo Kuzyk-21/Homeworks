@@ -46,8 +46,6 @@ body{
 .faculty__header {
 	color: #ffffff;
 	font-size: 38px;
-}
-.faculty__title{
 	margin-bottom: 30px;
 }
 .faculty__title--bold {
@@ -113,7 +111,7 @@ body{
 }
 .announcement__text {
 	display: flex;
-	padding-top: 100px;
+	align-self: center;
 	flex-direction: column;
 	gap: 20px;
 	width: 518px;

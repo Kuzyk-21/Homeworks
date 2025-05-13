@@ -75,13 +75,15 @@
 
                             <div class="checkout__checkbox">
                                 <label for="checkbox">
-                                    Ship to a different address
-                                    <input type="checkbox" id="checkbox">
+                                    <input type="checkbox" id="checkbox" autocomplete="off" class="checkout__checkbox-input">
+                                    <span class="checkout__checkbox-text">Ship to a different address</span>
                                 </label>
                             </div>
 
-                            <div class="checkout__textarea">
-                                <textarea name="" id=""></textarea>
+                            <div class="checkout__add-info">
+                                <h2 class="checkout__title">Additional Info</h2>
+                                <h3 class="checkout__sub-title">Order Notes (Optional)</h3>
+                                <textarea name="" id="" placeholder="Notes about your order, e.g. special notes for delivery" class="checkout__area"></textarea>
                             </div>
                         </div>
                     </form>

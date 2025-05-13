@@ -74,8 +74,8 @@ body{
 	background-color: #FFBE48;
 }
 .faculty__card-img {
-	width: 347px;
-	height: 266px;
+	flex-basis: 347px;
+	max-height: 266px;
 }
 .faculty__card-title {
 	color: #000;

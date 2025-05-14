@@ -15,20 +15,20 @@
         <main>
             <section class="section">
                 <div class="section__container">
-                    <form action="#" method="post" class="checkout">
+                    <form action="#" method="post" class="checkout" autocomplete="off">
                         <div class="checkout__form">
                             <h2 class="checkout__title">Billing Information</h2>
                             <div class="checkout__row">
-                                <label for="first-name" class="checkout__label">
+                                <label for="first-name" class="checkout__label" autocomplete="off">
                                     <span>First name</span>
-                                    <input type="text" id="first-name" placeholder="Your first name" required class="checkout__input">
+                                    <input type="text" id="first-name" autocomplete="off" placeholder="Your first name" required class="checkout__input">
                                 </label>
                                 <label for="last-name" class="checkout__label">
                                     <span>Last name</span>
                                     <input type="text" id="firs-name" placeholder="Your last name" required class="checkout__input">
                                 </label>
                                 <label for="company" class="checkout__label">
-                                    <span>Company Name (optional)</span>
+                                    <span>Company Name</span>
                                     <input type="text" id="company" placeholder="Company name" required class="checkout__input">
                                 </label>
                             </div>
@@ -65,17 +65,17 @@
                             <div class="checkout__row">
                                 <label for="email" class="checkout__label">
                                     <span>Email</span>
-                                    <input type="email"  id="email" placeholder="Email Address" required class="checkout__input">
+                                    <input type="email"  id="email"placeholder="Email Address" required class="checkout__input">
                                 </label>
                                 <label for="phone" class="checkout__label">
                                     <span>Phone</span>
-                                    <input type="tel"  id="phone" placeholder="Phone number" required class="checkout__input">
+                                    <input type="tel"  id="phone"  placeholder="Phone number" required class="checkout__input">
                                 </label>
                             </div>
 
                             <div class="checkout__checkbox">
                                 <label for="checkbox">
-                                    <input type="checkbox" id="checkbox" autocomplete="off" class="checkout__checkbox-input">
+                                    <input type="checkbox" id="checkbox"  class="checkout__checkbox-input">
                                     <span class="checkout__checkbox-text">Ship to a different address</span>
                                 </label>
                             </div>
@@ -85,6 +85,56 @@
                                 <h3 class="checkout__sub-title">Order Notes (Optional)</h3>
                                 <textarea name="" id="" placeholder="Notes about your order, e.g. special notes for delivery" class="checkout__area"></textarea>
                             </div>
+                        </div>
+
+                        <div class="checkout__summary">
+                            <div class="checkout__order">
+                                <h2 class="checkout__title">Order Summery</h2>
+                                <ul class="checkout__order-list">
+                                    <li>
+                                        <a href="" class="checkout__order-item">
+                                            <img src="img/green-pepper.avif" alt="Green Pepper">
+                                            <p class="checkout__order-title">Green Capsicum</p>
+                                            <p class="checkout__order-pieces">x5</p>
+                                            <p class="checkout__total-price">$70.00</p>
+                                        </a>
+                                        
+                                    </li>
+                                    <li>
+                                        <a href="" class="checkout__order-item">
+                                            <img src="img/red-pepper.avif" alt="Red Pepper">
+                                            <p class="checkout__order-title">Red Capsicum</p>
+                                            <p class="checkout__order-pieces">x1</p>
+                                            <p class="checkout__total-price">$14.00</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="checkout__total-summ">
+                                    <p class="checkout__total-title">Subtotal:<strong class="checkout__total-price">$84.00</strong></p>
+                                    <p class="checkout__total-title">Shipping:<strong class="checkout__total-price">Free</strong></p>
+                                    <p class="checkout__total-title">Total: <strong class="checkout__total-price checkout__total-price--font-weight">$84.00</strong></p>
+                                </div>
+                            </div>
+
+                            <div class="checkout__payment">
+                                <h2 class="checkout__title">Payment Method</h2>
+                                <div class="checkout__payment-method">
+                                    <label class="checkout__option">
+                                        <input type="radio" name="payment-method" class="checkout__option-input">
+                                        <span class="checkout__option-label">Cash on Delivery</span>
+                                    </label>
+                                   <label class="checkout__option">
+                                        <input type="radio" name="payment-method" class="checkout__option-input">
+                                        <span class="checkout__option-label">Pay Pal</span>
+                                    </label>
+                                    <label class="checkout__option">
+                                        <input type="radio" name="payment-method" class="checkout__option-input">
+                                        <span class="checkout__option-label">Amazon Pay</span>
+                                    </label>
+                                </div>
+                            </div>
+
+                            <button type="submit" class="checkout__btn">Place Order</button>
                         </div>
                     </form>
                 </div>

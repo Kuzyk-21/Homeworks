@@ -224,6 +224,7 @@ select.checkout__input{
     display: flex;
     margin-left: auto;
     font-weight: 500;
+    color: #1A1A1A;
 }
 
 .checkout__total-summ{

@@ -37,6 +37,7 @@ body{
     padding-bottom: 70px;
 }
 .section__container {
+    width: 100%;
     max-width: 1220px;
     padding-right: 10px;
     padding-left: 10px;
@@ -50,7 +51,7 @@ body{
 }
 .checkout__form {
     flex: 2;
-    min-width: 400px;
+    min-width: 300px;
 }
 .checkout__title {
     font-weight: 500;
@@ -69,9 +70,8 @@ body{
 .checkout__label{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     gap: 8px;
-    flex: 1;
+    flex: 1 1 250px;
     margin-bottom: 16px;
 }
 

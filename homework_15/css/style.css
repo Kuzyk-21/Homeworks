@@ -125,6 +125,7 @@ body{
     height: 100%;
     object-fit: cover;
     aspect-ratio: 254 / 230;
+    background-color: #808080;
 }
 
 .product-list__action {
@@ -271,6 +272,7 @@ body{
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  padding-top: 32px;
 }
 .latest-news__item {
     display: flex;
@@ -280,6 +282,7 @@ body{
 }
 .latest-news__top {
     position: relative;
+    background-color: #808080;
 }
 .latest-news__image{
     border-radius: 8px 8px 0px 0px;
@@ -459,7 +462,7 @@ body{
     }
 
     .latest-news__desc a {
-        font-size: 16px;
+        font-size: 18px;
     }
 }
 
@@ -479,11 +482,11 @@ body{
     .latest-news__tags span,
     .latest-news__user span,
     .latest-news__commentars span {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .latest-news__desc a {
-        font-size: 14px;
+        font-size: 18px;
     }
 
     .latest-news__link {
@@ -499,10 +502,14 @@ body{
     .product-list__card {
         flex: 1 1 100%;
     }
-        .latest-news__date {
+    .latest-news__date {
         bottom: 12px;
         left: 12px;
         padding: 4px 10px 6px 10px;
+    }
+
+    .latest-news__desc a{
+        font-size: 18px;
     }
 
     .latest-news__day {

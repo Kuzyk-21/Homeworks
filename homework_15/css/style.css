@@ -497,6 +497,9 @@ body{
     .product-list__card {
         flex: 1 1 100%;
     }
+        .product-list{
+        row-gap: 15px;
+    }
     .latest-news__date {
         bottom: 12px;
         left: 12px;

@@ -490,9 +490,14 @@ body{
 }
 
 @media (max-width: 480px) {
+    .product__title{
+        font-size: 28px;
+    }
     .product__heading{
         display: flex;
         flex-direction: column;
+        margin-bottom: 15px;
+        gap: 10px;
     }
     .product-list__card {
         flex: 1 1 100%;
@@ -503,19 +508,10 @@ body{
     .latest-news__date {
         bottom: 12px;
         left: 12px;
-        padding: 4px 10px 6px 10px;
     }
 
     .latest-news__desc a{
         font-size: 18px;
-    }
-
-    .latest-news__day {
-        font-size: 16px;
-    }
-
-    .latest-news__monht {
-        font-size: 12px;
     }
 
     .latest-news__tags::before,
@@ -539,5 +535,20 @@ body{
 
     .action-buttons__icon:active path {
         stroke: #fff;
+    }
+}
+
+@media (max-width: 370px){
+    .latest-news__info-header{
+        display: flex;
+        gap: 5px;
+        flex-direction: column;
+    }
+
+    .latest-news__date {
+        bottom: 12px;
+        left: 12px;
+        padding: 4px 10px 6px 10px;
+        font-size: 12px;
     }
 }

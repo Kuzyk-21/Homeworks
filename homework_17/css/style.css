@@ -642,13 +642,13 @@ body{
     .product-choice__rating{
         opacity: 1;
     }
-        .product-choice__action-btn{
+    .product-choice__action-btn{
         opacity: 1;
         visibility: visible;
         display: flex;
         position: absolute;
         top: 30px;
-        left: 200px;
+        left: 185px;
         gap: 12px;
         padding: 10px 16px 0 55px;
     }

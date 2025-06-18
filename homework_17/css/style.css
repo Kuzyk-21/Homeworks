@@ -123,11 +123,13 @@ body{
     padding: 14px 32px;
     background-color: #fff;
     border-radius: 43px;
+    border: 1px solid transparent;
 
     color: #00B207;
     line-height: 1.2;
     font-weight: 600;
     font-size: 14px;
+    transition: border 200ms linear;
 }
 .product-list__bannar-btn:hover{
     border: 1px solid #00B207;
@@ -419,11 +421,13 @@ body{
     padding: 14px 32px;
     background-color: #fff;
     border-radius: 43px;
+    border: 1px solid transparent;
 
     color: #00B207;
     line-height: 1.2;
     font-weight: 600;
     font-size: 14px;
+    transition: border 200ms linear;
 }
 
 .product-choice__bannar-btn:hover{

@@ -477,6 +477,7 @@ body{
 	gap: 15px;
 }
 .side-left__image {
+    flex: 0 0 402px;
 	display: block;
 }
 .side-left__image img{
@@ -573,6 +574,7 @@ body{
 	padding-bottom: 41px;
 }
 .side-right__image {
+    flex: 0 0 369px;
     display: block;
 }
 .side-right__image img{

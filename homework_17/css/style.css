@@ -714,7 +714,7 @@ body{
         top: 30px;
         left: 185px;
         gap: 12px;
-        padding: 10px 16px 0 55px;
+        padding: 10px 16px 0 105px;
     }
 	.side-left__list{
 		flex-direction: column;
@@ -726,6 +726,12 @@ body{
 	.side-right__title{
 		grid-column: 1;
 	}
+}
+
+@media(max-width: 475px){
+    .product-choice__action-btn{
+        padding: 10px 16px 0 55px;
+    }
 }
 
 @media(max-width: 420px){

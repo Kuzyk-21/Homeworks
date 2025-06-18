@@ -541,6 +541,7 @@ body{
 	outline: 10px solid #F8F3EC;
 	outline-offset: -11px;
 	gap: 10px;
+    transition: all 300ms linear;
 }
 
 .side-left__link:hover{

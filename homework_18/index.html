@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 18</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__title">Homework</h1>
+    </header>
+    <main class="page">
+        <div class="page__container">
+            <article class="blog">
+                <section class="blog__header">
+                    <img src="img/orange.jpg" alt="">
+                    <div class="blog__info">
+                        <ul class="blog__tags">
+                            <li class="blog__tags-item">
+                                <a href="#" class="blog__tags-link">Food</a>
+                            </li>
+                            <li class="blog__tags-item">
+                                <a href="" class="blog__tags-link">By Admin</a>
+                            </li>
+                            <li class="blog__tags-item">
+                                <a href="" class="blog__tags-link">65 Comments</a>
+                            </li>
+                        </ul>
+                        <h2 class="blog__title">Maecenas tempor urna sed quam mollis, a placerat dui fringill Suspendisse.</h2>
+                        <div class="blog__inner">
+                            <figure class="blog__author">
+                                <img src="img/author.jpg" alt="">
+                                <figcaption class="blog__author-name">Cameron Williamson</figcaption>
+                            </figure>
+                            <div class="blog__date-time time-date">
+                                    <time class="time-date__date" datetime="2021-04-04">4 April, 2021</time>
+                                    <div class="time-date__minutes">6 min read</div>
+                                </div>
+
+                            <ul class="blog__author-socials socials-author">
+                                <li class="socials-author__item">
+                                    <a href="#" target="_blank" rel="noopener noreferrer" class="socials-author__link"></a>
+                                </li>
+                                <li class="socials-author__item">
+                                    <a href="#" target="_blank" rel="noopener noreferrer" class="socials-author__link"></a>
+                                </li>
+                                <li class="socials-author__item">
+                                    <a href="#" target="_blank" rel="noopener noreferrer" class="socials-author__link"></a>
+                                </li>
+                                <li class="socials-author__item">
+                                    <a href="#" target="_blank" rel="noopener noreferrer" class="socials-author__link"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section class="blog__content content">
+                    <h3 class="content__title">Maecenas lacinia felis nec placerat sollicitudin. Quisque placerat dolor at scelerisque imperdiet. Phasellus tristique felis dolor.</h3>
+                    <div class="content__info">
+                        <p>
+                            Maecenas elementum in risus sed condimentum. Duis convallis ante ac tempus maximus. Fusce malesuada sed velit ut dictum. Morbi faucibus vitae orci at euismod. Integer auctor augue in erat vehicula, quis fermentum ex finibus.
+                        </p>
+                        <p>
+                            Mauris pretium elit a dui pulvinar, in ornare sapien euismod. Nullam interdum nisl ante, id feugiat quam euismod commodo. Sed ultrices lectus ut iaculis rhoncus. Aenean non dignissim justo, at fermentum turpis. Sed molestie, ligula ut molestie ultrices, tellus ligula viverra neque, malesuada consectetur diam sapien volutpat risus.
+                            Quisque eget tortor lobortis, facilisis metus eu, elementum est. Nunc sit amet erat quis ex convallis suscipit. ur ridiculus mus.
+                        </p>
+                        <div class="content__images">
+                            <img loading="lazy" src="img/orange-2.jpg" alt="">
+                            <img loading="lazy" src="img/mango.jpg" alt="">
+                        </div>
+                    </div>
+                </section>
+                <section class="blog__bannar promo-bannar">
+                    <img loading="lazy" src="img/bannar.jpg" alt="">
+                    <div class="promo-bannar__info">
+                        <p class="promo-bannar__label">Summer Sales</p>
+                        <h2 class="promo-bannar__title">Fresh Fruit</h2>
+                    </div>
+                    <a href="#" class="promo-bannar__link">Shop Now</a>
+                    <div class="promo-bannar__badge badge">
+                        <span class="badge__lable">up to</span>
+                        <span class="badge__value">56%</span>
+                        <span class="badge__text">Off</span>
+                    </div>
+                </section>
+                <section class="blog__form comment-form">
+                    <h2 class="comment-form__title">Leave a Comment</h2>
+                    <form action="#" method="post" class="form">
+                       <div class="form__body">
+                           <div class="form__info">
+                                <label for="name" class="form__label">
+                                    <span class="form__name">Full Name</span>
+                                    <input id="name" type="text" required autocomplete="off" placeholder="Zakir Hossen" class="form__input">
+                                </label>
+                                <label for="mail" class="form__label">
+                                    <span>Email</span>
+                                    <input id="mail" type="email" required autocomplete="off" placeholder="Zakir Hossen" class="form__input">
+                                </label>
+                           </div>
+                           <div class="form__message">
+                                <label class="form__label" for="input-message">Message</label>
+                                <textarea name="message" id="input-message" class="form__input" required autocomplete="off" placeholder="Write your comment here…" rows="3"></textarea>
+                           </div>
+                           <div class="form__checkbox">
+                                <label for="check" class="form__label">
+                                    <input id="check" type="checkbox" class="form__input">
+                                    <span>Save my name and email in this browser for the next time I comment.</span>
+                                </label>
+                           </div>
+                           <button type="submit" class="form__button">Post Comments</button>
+                       </div>
+                    </form>
+                </section>
+                <section class="blog__comment comment">
+                    <h2 class="comment__title">Comments</h2>
+                    <ul class="comment__list">
+                        <li class="comment__list-item">
+                            <article class="comment__list-body">
+                                <div class="comment-author">
+                                    <img src="img/author.jpg" alt="">
+                                    <h3 class="comment__author-name">Cameron Williamson</h3>
+                                </div>
+                                <div class="comment__date-time time-date">
+                                    <time class="time-date__date" datetime="2021-04-26">26 April, 2021</time>
+                                </div>
+                                <blockquote>In a nisi commodo, porttitor ligula consequat, tincidunt dui. Nulla volutpat, metus eu aliquam malesuada, elit libero venenatis urna, consequat maximus arcu diam non diam.</blockquote>
+                            </article>
+                        </li>
+                        <li class="comment__list-item">
+                            <article class="comment__list-body">
+                                <div class="comment-author">
+                                    <img src="img/author.jpg" alt="">
+                                    <h3 class="comment__author-name">Cameron Williamson</h3>
+                                </div>
+                                <div class="comment__date-time time-date">
+                                    <time class="time-date__date" datetime="2021-04-26">26 April, 2021</time>
+                                </div>
+                                <blockquote>In a nisi commodo, porttitor ligula consequat, tincidunt dui. Nulla volutpat, metus eu aliquam malesuada, elit libero venenatis urna, consequat maximus arcu diam non diam.</blockquote>
+                            </article>
+                        </li>
+                         <li class="comment__list-item">
+                            <article class="comment__list-body">
+                                <div class="comment-author">
+                                    <img src="img/author.jpg" alt="">
+                                    <h3 class="comment__author-name">Cameron Williamson</h3>
+                                </div>
+                                <div class="comment__date-time time-date">
+                                    <time class="time-date__date" datetime="2021-04-26">26 April, 2021</time>
+                                </div>
+                                <blockquote>In a nisi commodo, porttitor ligula consequat, tincidunt dui. Nulla volutpat, metus eu aliquam malesuada, elit libero venenatis urna, consequat maximus arcu diam non diam.</blockquote>
+                            </article>
+                        </li>
+                        <li class="comment__list-item">
+                            <article class="comment__list-body">
+                                <div class="comment-author">
+                                    <img src="img/author.jpg" alt="">
+                                    <h3 class="comment__author-name">Cameron Williamson</h3>
+                                </div>
+                                <div class="comment__date-time time-date">
+                                    <time class="time-date__date" datetime="2021-04-26">26 April, 2021</time>
+                                </div>
+                                <blockquote>In a nisi commodo, porttitor ligula consequat, tincidunt dui. Nulla volutpat, metus eu aliquam malesuada, elit libero venenatis urna, consequat maximus arcu diam non diam.</blockquote>
+                            </article>
+                        </li>
+                          <li class="comment__list-item">
+                            <article class="comment__list-body">
+                                <div class="comment-author">
+                                    <img src="img/author.jpg" alt="">
+                                    <h3 class="comment__author-name">Cameron Williamson</h3>
+                                </div>
+                                <div class="comment__date-time time-date">
+                                    <time class="time-date__date" datetime="2021-04-26">26 April, 2021</time>
+                                </div>
+                                <blockquote>In a nisi commodo, porttitor ligula consequat, tincidunt dui. Nulla volutpat, metus eu aliquam malesuada, elit libero venenatis urna, consequat maximus arcu diam non diam.</blockquote>
+                            </article>
+                        </li>
+                    </ul>
+                </section>
+                <button type="button" class="blog__button">Load More</button>
+            </article>
+
+            <aside class="aside">
+                <form action="#" class="aside__search">
+                    <label for="search">
+                        <input id="search" type="search" placeholder="Search...">
+                    </label>
+                </form>
+                <section class="category">
+                    <h2 class="category__title">Top Categories</h2>
+                    <ul class="category__list">
+                        <li class="category__item">
+                            <a href="" class="category__link">Fresh Fruit</a>
+                            <span>(134)</span>
+                        </li>
+                        <li class="category__item">
+                            <a href="" class="category__link">Vegetables</a>
+                            <span>(150)</span>
+                        </li>
+                        <li class="category__item">
+                            <a href="" class="category__link">Cooking</a>
+                            <span>(134)</span>
+                        </li>
+                        <li class="category__item">
+                            <a href="" class="category__link">Snacks</a>
+                            <span>(134)</span>
+                        </li>
+                        <li class="category__item">
+                            <a href="" class="category__link">Beverages</a>
+                            <span>(134)</span>
+                        </li>
+                        <li class="category__item">
+                            <a href="" class="category__link">Beauty & Health</a>
+                            <span>(134)</span>
+                        </li>
+                        <li class="category__item">
+                            <a href="" class="category__link">Bread & Bakery</a>
+                            <span>(134)</span>
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="tag">
+                    <h2 class="tag__title">Popular Tag</h2>
+                    <ul class="tag__list">
+                        <li class="tag__item">
+                            <button class="tag__button">Healthy</button>
+                        </li>
+                        <li class="tag__item">
+                            <button class="tag__button">Healthy</button>
+                        </li>
+                        <li class="tag__item">
+                            <button class="tag__button">Healthy</button>
+                        </li>
+                        <li class="tag__item">
+                            <button class="tag__button">Healthy</button>
+                        </li>
+                        <li class="tag__item">
+                            <button class="tag__button">Healthy</button>
+                        </li>
+                        <li class="tag__item">
+                            <button class="tag__button">Healthy</button>
+                        </li>
+                        <li class="tag__item">
+                            <button class="tag__button">Healthy</button>
+                        </li>
+                        <li class="tag__item">
+                            <button class="tag__button">Healthy</button>
+                        </li>
+                        <li class="tag__item">
+                            <button class="tag__button">Healthy</button>
+                        </li>
+                        <li class="tag__item">
+                            <button class="tag__button">Healthy</button>
+                        </li>
+                        <li class="tag__item">
+                            <button class="tag__button">Healthy</button>
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="gallery">
+                    <h2 class="gallery__title">Our Gallery</h2>
+                    <ul class="gallery__list">
+                        <li class="gallery__item">
+                            <a href="#" class="gallery__img">
+                                <img src="img/carrot.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="gallery__item">
+                            <a href="#" class="gallery__img">
+                                <img src="img/carrot.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="gallery__item">
+                            <a href="#" class="gallery__img">
+                                <img src="img/carrot.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="gallery__item">
+                            <a href="#" class="gallery__img">
+                                <img src="img/carrot.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="gallery__item">
+                            <a href="#" class="gallery__img">
+                                <img src="img/carrot.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="gallery__item">
+                            <a href="#" class="gallery__img">
+                                <img src="img/carrot.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="gallery__item">
+                            <a href="#" class="gallery__img">
+                                <img src="img/carrot.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="gallery__item">
+                            <a href="#" class="gallery__img">
+                                <img src="img/carrot.jpg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="recently-post">
+                    <h2 class="recently-post__title">Recently Added</h2>
+                    <ul class="recently-post__list">
+                        <li class="recently-post__item">
+                            <article class="recently-post__body">
+                                <figure class="recently-post__content">
+                                    <img src="img/blueberry.jpg" alt="">
+                                    <figcaption class="recently-post__info">
+                                        <h3 class="recently-post__lable"><a href="#">Curabitur porttitor orci eget nequ accumsan.</a></h3>
+                                        <time datetime="2021-04-25" class="recently-post__date">Apr 25, 2021</time>
+                                    </figcaption>
+                                </figure>
+                            </article>
+                        </li>
+                        <li class="recently-post__item">
+                            <article class="recently-post__body">
+                                <figure class="recently-post__content">
+                                    <img src="img/blueberry.jpg" alt="">
+                                    <figcaption class="recently-post__info">
+                                        <h3 class="recently-post__lable"><a href="#">Curabitur porttitor orci eget nequ accumsan.</a></h3>
+                                        <time datetime="2021-04-25" class="recently-post__date">Apr 25, 2021</time>
+                                    </figcaption>
+                                </figure>
+                            </article>
+                        </li>
+                        <li class="recently-post__item">
+                            <article class="recently-post__body">
+                                <figure class="recently-post__content">
+                                    <img src="img/blueberry.jpg" alt="">
+                                    <figcaption class="recently-post__info">
+                                        <h3 class="recently-post__lable"><a href="#">Curabitur porttitor orci eget nequ accumsan.</a></h3>
+                                        <time datetime="2021-04-25" class="recently-post__date">Apr 25, 2021</time>
+                                    </figcaption>
+                                </figure>
+                            </article>
+                        </li>
+                    </ul>
+                </section>
+            </aside>
+        </div>
+    </main>
+    <footer class="footer">
+        <h2 class="footer__title">Footer</h2>
+    </footer>
+</body>
+</html>
